@@ -2,4 +2,4 @@
 
 на занятии https://moodle.herzen.spb.ru/course/view.php?id=1028#section-7
 
-там же находится  и задание к этому коду
+Клиент: https://kodaktor.ru/web29032018_9ca6b
