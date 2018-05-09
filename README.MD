@@ -6,6 +6,7 @@
 * pow https://middleware-in-php-silex.herokuapp.com/pow/2/10
 * sub https://middleware-in-php-silex.herokuapp.com/sub/50/15
 * mpy https://middleware-in-php-silex.herokuapp.com/mpy/10/10
+* author https://middleware-in-php-silex.herokuapp.com/author
 
 **Клиентская часть:** https://kodaktor.ru/web29032018_4b7a2 <br>
 **Клиент:** https://kodaktor.ru/web29032018_9ca6b
