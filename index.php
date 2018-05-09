@@ -21,27 +21,27 @@
   });
   
  $app->get('/add/{n1}/{n2}', function ($n1, $n2) use($app) {
-    return '<ins><h2 style = "font-family: Arial">Сумма: </h2></ins><h3>' . $n1 . ' + ' . $n2 .' = ' .($n1 + $n2) . '</h3>'; 
+    return '<ins><h2>Сумма:</h2></ins><h3>' . $n1 . ' + ' . $n2 .' = ' .($n1 + $n2) . '</h3>'; 
   })->after($hdrs);
 
  $app->get('/mpy/{n1}/{n2}', function ($n1, $n2) use($app) {
-    return '<ins><h2>Произведение: </h2></ins><h3 style = "font-family: Arial>' . $n1 . ' * ' . $n2 .' = ' .($n1 * $n2) . '</h3>'; 
+    return '<ins><h2>Произведение: </h2></ins><h3>' . $n1 . ' * ' . $n2 .' = ' .($n1 * $n2) . '</h3>'; 
   })->after($hdrs);
 
  $app->get('/sub/{n1}/{n2}', function ($n1, $n2) use($app) {
-    return '<ins><h2>Вычитание: </h2></ins><h3 style = "font-family: Arial>' . $n1 . ' / ' . $n2 .' = ' .($n1 / $n2) . '</h3>'; 
+    return '<ins><h2>Вычитание:</h2></ins><h3>' . $n1 . ' / ' . $n2 .' = ' .($n1 / $n2) . '</h3>'; 
   })->after($hdrs);
 
  $app->get('/div/{n1}/{n2}', function ($n1, $n2) use($app) {
-    return '<ins><h2>Деление: </h2></ins><h3 style = "font-family: Arial>' . $n1 . ' - ' . $n2 .' = ' .($n1 - $n2) . '</h3>'; 
+    return '<ins><h2>Деление:</h2></ins><h3>' . $n1 . ' - ' . $n2 .' = ' .($n1 - $n2) . '</h3>'; 
   })->after($hdrs);
 
  $app->get('/pow/{n1}/{n2}', function ($n1, $n2) use($app) {
-    return '<ins><h2>Возведение в степень: </h2></ins><h3 style = "font-family: Arial>' . $n1 . ' ^ ' . $n2 .' = ' .($n1 ** $n2) . '</h3>'; 
+    return '<ins><h2>Возведение в степень:</h2></ins><h3>' . $n1 . ' ^ ' . $n2 .' = ' .($n1 ** $n2) . '</h3>'; 
   })->after($hdrs);
 
  $app->get('/author', function () use($app) {
-    return '<h4 style = "font-family: Arial id="author" title="GossJS">Skorobogatov Kirill</h4>'; 
+    return '<h4 id="author" title="GossJS">Скоробогатов Кирилл</h4>'; 
   })->after($hdrs);
 
 
