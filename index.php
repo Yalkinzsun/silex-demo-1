@@ -21,7 +21,7 @@
   });
   
  $app->get('/add/{n1}/{n2}', function ($n1, $n2) use($app) {
-    return '<h2 style = "font-family: Arial" >Сумма: </h2><h3 style = "font-family: Arial>' . $n1 . ' + ' . $n2 .' = ' .($n1 + $n2) . '</h3>'; 
+    return '<ins><h2 style = "font-family: Arial" >Сумма: </h2></ins>' . '<h3 style = "font-family: Arial>' . $n1 . ' + ' . $n2 .' = ' .($n1 + $n2) . '</h3>'; 
   })->after($hdrs);
 
  $app->get('/mpy/{n1}/{n2}', function ($n1, $n2) use($app) {
