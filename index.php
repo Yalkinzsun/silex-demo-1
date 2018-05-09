@@ -16,7 +16,7 @@
 
   $app->get('/', function () use($app) {
     return $app['twig']->render('home.twig', array(
-      'content' => 'Добро пожаловать!' . '<br>' . 'Hello!'
+      'content' => 'Добро пожаловать!' . '<br>' . 'Hellooo!'
     ));  
   });
   
