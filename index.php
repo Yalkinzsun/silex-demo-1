@@ -29,11 +29,11 @@
   })->after($hdrs);
 
  $app->get('/sub/{n1}/{n2}', function ($n1, $n2) use($app) {
-    return '<ins><h2>Вычитание:</h2></ins><h3>' .($n1 / $n2) . '</h3>'; 
+    return '<ins><h2>Вычитание:</h2></ins><h3>' .($n1 - $n2) . '</h3>'; 
   })->after($hdrs);
 
  $app->get('/div/{n1}/{n2}', function ($n1, $n2) use($app) {
-    return '<ins><h2>Деление:</h2></ins><h3>' .($n1 - $n2) . '</h3>'; 
+    return '<ins><h2>Деление:</h2></ins><h3>' .($n1 / $n2) . '</h3>'; 
   })->after($hdrs);
 
  $app->get('/pow/{n1}/{n2}', function ($n1, $n2) use($app) {
